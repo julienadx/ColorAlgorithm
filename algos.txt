@@ -1,0 +1,8 @@
+1 : img[i, a] = (inverse(math.cos(b+i*a)), inverse(math.sin(b+a)), inverse(math.cos(i*a)))
+2 : img[i, a] = (inverse(math.cos(b+i*a)), inverse(math.sin(b+a)), inverse(math.cos(i*a-b)))
+3 : img[i, a] = (inverse(math.cos(b+i*a)), inverse(math.sin(b+a)), inverse(math.cos(i*a*b)))
+4 : img[i, a] = (inverse(math.cos(b+i*a)), inverse(math.cos(b+a)), inverse(math.cos(i*a*b)))
+5 : img[i, a] = (inverse(math.cos(b+i*a)), inverse(math.sin(b*a)), inverse(math.cos(i*a*b)))
+6 : img[i, a] = (inverse(math.cos(b+i*a)), inverse(math.sin(b*a+i)), inverse(math.cos(i*a*b)))
+7 : img[i, a] = (inverse(math.cos(b+i*a)), inverse(math.sin(b*(a+i))), inverse(math.cos(i*a*b)))
+8 : img[i, a] = (inverse(math.sin(b+i*a)), inverse(math.sin(b*(a+i))), inverse(math.cos(i*a*b)))
